@@ -1,8 +1,11 @@
-// src/serviceWorkerRegistration.js
+export function register(config) {
+  // ...existing register code (can be empty if not using)...
+}
+
 export function unregister() {
   if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/service-worker.js');
+    navigator.serviceWorker.ready.then(registration => {
+      registration.unregister();
     });
   }
 }
