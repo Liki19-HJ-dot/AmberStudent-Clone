@@ -1,0 +1,23 @@
+/* src/styles/PropertyList.css */
+.property-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .property-list {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+:root {
+  --primary: #ff914d;
+  --secondary: #074e70;
+  --background: #fff;
+  --text-main: #1a1a1a;
+  --border-radius: 12px;
+  --spacing-unit: 1rem;
+}
