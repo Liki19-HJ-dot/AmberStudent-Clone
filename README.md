@@ -22,8 +22,8 @@ A React.js replica of the AmberStudent platform, featuring authentication, respo
 1. Clone the repository
 2. `npm install`
 3. `npm start`
-4. Local:  'http://localhost:3000'
-5. Network:  'http://192.168.56.1:3000'
+4. Local:    http://localhost:3000
+5. Network:  http://192.168.56.1:3000                                      
 
 
 ## Additional Notes
